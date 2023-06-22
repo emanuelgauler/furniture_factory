@@ -18,7 +18,7 @@ public class FurnitureTest {
    
    @Test void
    thatFurnitureCopy_return_its_cost() {
-      Furniture chour = Furniture.CHOUR;
+      Furniture chour = Furniture.COUCH;
       
       assertThat(chour.cost(), equalTo( 500.0f ));
    }

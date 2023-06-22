@@ -1,7 +1,9 @@
 package org.kurupi.hackerank.furniture_factory;
 
 public enum Furniture {
-   CHAIR("Chair", 100.0f), CHOUR("Chour", 500.0f);
+   CHAIR("Chair", 100.0f),
+   COUCH("Chour", 500.0f),
+   TABLE("Table", 250.0f);
    
    private final String its_label;
    private final float its_cost;
