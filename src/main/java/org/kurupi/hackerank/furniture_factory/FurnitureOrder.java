@@ -19,8 +19,7 @@ public class FurnitureOrder implements FurnitureOrderInterface {
    }
    
    public HashMap<Furniture, Integer> getOrderedFurniture() {
-      // TODO: Complete the method
-      return null;
+      return order;
    }
    
    public float getTotalOrderCost() {
@@ -37,7 +36,6 @@ public class FurnitureOrder implements FurnitureOrderInterface {
    }
    
    public int getTotalOrderQuantity() {
-      // TODO: Complete the method
-      return -1;
+      return order.values().stream().mapToInt(Integer::intValue).sum();
    }
 }
